@@ -8,6 +8,7 @@
         <groupId>com.brugnot.samples</groupId>
         <artifactId>spring-data-rest-sample-parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
+        <relativePath>/../spring-data-rest-sample-parent/pom.xml</relativePath>
     </parent>
 
     <groupId>com.brugnot.samples</groupId>
@@ -25,6 +26,12 @@
             <artifactId>spring-data-rest-sample-core</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+        </dependency>
+
+
     </dependencies>
 
     <build>

@@ -25,6 +25,8 @@
         <spring-data-commons.version>1.12.3.RELEASE</spring-data-commons.version>
         <spring-data-jpa.version>1.10.3.RELEASE</spring-data-jpa.version>
         <spring-data-rest-webmvc.version>2.5.3.RELEASE</spring-data-rest-webmvc.version>
+
+        <h2.version>1.4.179</h2.version>
     </properties>
 
     <dependencyManagement>
@@ -92,6 +94,11 @@
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
                 <version>${mysql-connector-java.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>${h2.version}</version>
             </dependency>
 
             <!-- Servlet -->
